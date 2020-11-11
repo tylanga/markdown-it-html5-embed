@@ -209,7 +209,7 @@ module.exports = function html5_embed_plugin(md, options) {
   var defaults = {
     attributes: {
       audio: 'controls preload="metadata"',
-      video: 'controls preload="metadata"'
+      video: 'autoplay loop controls preload="metadata" width="100%"'
     },
     useImageSyntax: true,
     inline: true,
